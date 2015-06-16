@@ -1,5 +1,6 @@
 # check-point-in-rectangle
 Checks if point is in rectangle or not.
+This is based on the concept explained by [Martin Thoma](http://martin-thoma.com/how-to-check-if-a-point-is-inside-a-rectangle/)
 ## installation
 
 ```
