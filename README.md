@@ -8,12 +8,12 @@ npm install check-point-in-rectangle
 
 ## usage
 ```javascript
-var checkPoint = require('check-poin-in-rectangle');
+var checkPoint = require('check-point-in-rectangle');
 checkPoint(point, rectangle) == true
 ```
 ### example
 ````javascript
-var checkPoint = require('check-poin-in-rectangle');
+var checkPoint = require('check-point-in-rectangle');
 if (checkPoint([5,5],[[0,0], [10,0], [10,10], [0,10]]) == true) {
   console.log('Point is inside the rectangle');
 }
