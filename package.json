@@ -1,0 +1,30 @@
+{
+  "name": "check-point-in-rectangle",
+  "version": "0.0.0",
+  "description": "Checks if point is in rectangle or not.",
+  "main": "check-point-in-rectangle.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build-debug": "browserify check-point-in-rectangle.js --debug --standalone checkPointInRectangle | exorcist dist/check-point-in-rectangle.js.map > dist/check-point-in-rectangle.js",
+    "build-min": "browserify check-point-in-rectangle.js --standalone checkPointInRectangle | uglifyjs -c -m > dist/check-point-in-rectangle.min.js",
+    "build": "npm run build-debug && npm run build-min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geosquare/check-point-in-rectangle"
+  },
+  "keywords": ["point", "intersect", "renctangle", "geometry"],
+  "author": "Gagan Bansal <gaganbansal123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geosquare/check-point-in-rectangle/issues"
+  },
+  "homepage": "https://github.com/geosquare/check-point-in-rectangle",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "chai": "^1.10.0",
+    "exorcist": "^0.1.6",
+    "mocha": "^2.1.0",
+    "uglify-js": "^2.4.16"
+  }
+}
