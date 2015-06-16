@@ -1,6 +1,6 @@
 {
   "name": "check-point-in-rectangle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks if point is in rectangle or not.",
   "main": "check-point-in-rectangle.js",
   "scripts": {
@@ -13,7 +13,12 @@
     "type": "git",
     "url": "https://github.com/geosquare/check-point-in-rectangle"
   },
-  "keywords": ["point", "intersect", "renctangle", "geometry"],
+  "keywords": [
+    "point",
+    "intersect",
+    "renctangle",
+    "geometry"
+  ],
   "author": "Gagan Bansal <gaganbansal123@gmail.com>",
   "license": "MIT",
   "bugs": {
