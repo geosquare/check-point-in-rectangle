@@ -12,9 +12,9 @@ npm install check-point-in-rectangle
 var checkPointIn = require('check-point-in-rectangle');
 checkPointIn(point, rectangle [,precision]) 
 ```
-**point** array of x and y coordinates
-**rectangle** array of four corner points
-**precision** is used in algorithm to compare the area of rectangle and sum of triangles formed by point with rectangle, default is 6
+**point** array of x and y coordinates  
+**rectangle** array of four corner points  
+**precision** is used in algorithm to compare the area of rectangle and sum of triangles formed by point with rectangle, default is 6      
 ### example
 ````javascript
 var checkPoint = require('check-point-in-rectangle');
