@@ -1,6 +1,6 @@
 {
   "name": "check-point-in-rectangle",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Checks if point is in rectangle or not.",
   "main": "check-point-in-rectangle.js",
   "scripts": {
